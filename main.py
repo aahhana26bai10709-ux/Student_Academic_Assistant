@@ -4,8 +4,6 @@ from academic_data import add_academic_record
 from academic_data import display_academic_records
 from academic_data import get_subject_count
 from marks_analyser import display_marks_analysis
-
-
 def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
 
